@@ -1,11 +1,9 @@
 
-var img1 = document.getElementById(".blog-section_image"),
-img2 = document.getElementById(".blog-section_image");
+$(document).ready(function () {
+	$(document).on('mouseenter', '#blog-section', function () {
+			$(this).find("#blog-section_image").show();
+	}).on('mouseleave', '#blog-section', function () {
+			$(this).find("#blog-section_image").hide();
+	});
+});
 
-img1.onmouseover = function(){
-img2.style.display = "block";
-}
-
-img1.onmouseout = function(){
-img2.style.display = "none";
-}

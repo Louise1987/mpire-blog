@@ -8,6 +8,7 @@ html{
 	display: flex;
 	flex-direction: column;
 	max-height: 300px;
+	text-decoration:none;
 }
 
 .blog-list{
@@ -18,10 +19,11 @@ html{
 #blog-section{
 	display: flex;
 	flex-direction: row;
+	text-decoration:none;
 }
 
-.blog-section_link{
-	text-decoration: none;
+#blog-section_link{
+	text-decoration:none;
 }
 
 #blog-section_content{
@@ -32,7 +34,6 @@ html{
 	margin:20% 0 5% 10%;
 	font-family: 'Noto Sans JP', sans-serif;
 	width: 70%;
-	height:auto;
 }
 
 .blog-section_left{
@@ -50,13 +51,12 @@ html{
 }
 
 .blog-section_center{
-	margin: 5% 10% 0 5%;
+	margin: 5% 5% 0 5%;
 }
 
-.blog-section_image{
+#blog-section_image{
 	width:auto;
-	height: 20%;
-	display: none;
+	height: 300px;
 }
 
 /* Blog page */
